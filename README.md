@@ -65,8 +65,13 @@ b. Add your wallets in this format:
 ---
 
 4. Add proxies (optional but recommended)
+
    Create `accounts/proxies.txt` and add one proxy per line matching each wallet:
-   
+
+```bash   
+npm install https-proxy-agent
+ ```
+
 a. Create or open the proxy list file:
 ```bash
 nano accounts/proxies.txt
